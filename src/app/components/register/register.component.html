@@ -1,0 +1,72 @@
+<app-header></app-header>
+<!--inicio formulario registro usuario responsive-->
+<div class="cardxd card-bodyxd blur shadow-blur mx-3 mx-md-4 mt-n6">
+    <section>
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
+            <div>
+              <h3 class="text-center card-header " style="background-color: #3f3e59;" >REGISTRO DE USUARIOS</h3>
+            </div>
+       <div class ="card-body card blur " >
+            <form method="post"  autocomplete="off"  class="form needs-validation" novalidate>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6 offset-3">
+                    <div class="input-group input-group-dynamic mb-4">
+                      <label class="form-label">Nombre:</label>
+                      <input
+                      formControlName="name"
+                        class="form-control"
+                        aria-label="nombre"
+                        type="text"
+                        placeholder=" Escribe aqui tu nombre"
+                      />
+                      <div class="valid-feedback">¡Ok válido!</div>
+                      <div class="invalid-feedback">Complete el campo correctamente.</div>
+                    </div>
+                    <div class="input-group input-group-dynamic mb-4">
+                      <label class="form-label">Correo:</label>
+                      <input
+                      formControlName="email"
+                        class="form-control"
+                        aria-label="nombre"
+                        type="text"
+                        placeholder=" Escribe aqui tu correo"
+                      />
+                      <div class="valid-feedback">¡Ok válido!</div>
+                      <div class="invalid-feedback">Complete el campo correctamente.</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6 offset-3">
+                    <div class="input-group input-group-dynamic mb-4">
+                      <label class="form-label">Contraseña:</label>
+                      <input
+                      formControlName="password"
+                        class="form-control"
+                        aria-label="contraseña"
+                        type="password"
+                        placeholder=" Min 6 caracteres, max 12 caracteres"
+                      />
+                    </div>
+                  </div>
+                 
+                </div>
+               
+                <div class="d-grid gap-2 col-5 mx-auto">
+                  <button  class="btn btn-dark my-4" name="registrar" >Registrar</button>
+              </div>
+             
+              </div>
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <app-footer></app-footer>

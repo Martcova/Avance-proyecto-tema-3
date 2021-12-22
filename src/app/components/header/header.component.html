@@ -1,0 +1,62 @@
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3"  >
+    <div class="container-fluid">
+      <a class="navbar-brand text-white letra_nabvar" href="">TECNOMART</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+              <li class="nav-item dropdown ">
+  
+                <a class="nav-link dropdown-toggle text-white letra_nabvar " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Administración
+                </a>
+                <ul class="dropdown-menu  p-md-3 m" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item letra_nabvar" [routerLink]="'/header/tbl-articulos'" >Articulos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item letra_nabvar"  [routerLink]="'/header/tbl-comentarios'">Comentarios</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item letra_nabvar" [routerLink]="'/header/tbl-usuarios'" >Usuarios</a></li>
+  
+                </ul>
+              </li>
+              
+          </ul>
+        <ul class="navbar-nav ms-md-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white letra_nabvar" aria-current="page" href="">Inicio</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link text-white letra_nabvar" aria-current="page"  [routerLink]="'/header/register'">Registrarse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white letra_nabvar" aria-current="page" href="#"><i class="bi bi-person-circle"></i>&nbsp;&nbsp;</a>
+            </li>
+            <li class="nav-item">
+              <a [routerLink]="'/header/login'" class="nav-link text-white letra_nabvar" aria-current="page"  >Acceder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white letra_nabvar" aria-current="page" href="#">Salir</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+  </nav>
+  <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+    <div class="content text-center">
+    <!--  <h1 class="text-white letra_centro">xxx</h1>
+      <h3 class="text-white letra_nabvar">xxxxxx</h3>--> 
+    </div>
+  </div>
+  
+
+
+  
+ 
+  
